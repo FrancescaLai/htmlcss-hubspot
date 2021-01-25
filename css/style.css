@@ -19,7 +19,7 @@ body{
 
 /* /mix */
 
-/* top-header */
+/* Header */
 
 .top-header{
   background-color: #F4F9FD;
@@ -72,6 +72,47 @@ nav i, a{
   background-color: #ff7b54;
   color: white;
 }
-/* /top-header */
 
-/* bottom-header */
+.bottom-header{
+  height: 60px;
+}
+
+.main-header{
+  background-color: #FFF4EF;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right; 
+  height: 300px;
+}
+
+
+.text-header{
+  width: 30%;
+  word-spacing: 5px;
+}
+
+h1{
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size: 26px;
+}
+
+p{
+  font-size: 8px;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+#big-button{
+  font-size: 8px;
+  padding: 12px 22px;
+}
+
+.small-text{
+  margin-top: 20px;
+  font-size: 7px;
+  word-spacing: 1px;
+}
+
+/* /Header */
