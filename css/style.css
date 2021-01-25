@@ -6,4 +6,72 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  color: #33475b;
 }
+
+/* mix */
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* /mix */
+
+/* top-header */
+
+.top-header{
+  background-color: #F4F9FD;
+  height: 60px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+nav li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav i, a{
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+
+.col-left{
+  float: left;
+}
+
+.col-right{
+  float: right;
+}
+
+.fa-search{
+  color: #91D4E1;
+}
+
+.button{
+  border: 1px solid #ff7b54;
+  padding: 6px 8px;
+  border-radius: 3px;
+}
+
+.button,.empty{
+  color: #ff7b54;
+  background-color: white;
+}
+
+.full{
+  background-color: #ff7b54;
+  color: white;
+}
+/* /top-header */
+
+/* bottom-header */
