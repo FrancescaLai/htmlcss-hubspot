@@ -59,8 +59,9 @@ nav i, a{
 
 .button{
   border: 1px solid #ff7b54;
-  padding: 6px 8px;
+  padding: 8px 16px;
   border-radius: 3px;
+  font-size: 8px;
 }
 
 .button,.empty{
@@ -77,7 +78,7 @@ nav i, a{
   height: 60px;
 }
 
-.main-header{
+.hero{
   background-color: #FFF4EE;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
@@ -98,9 +99,9 @@ h1{
 }
 
 p{
-  font-size: 9px;
+  font-size: 10px;
   padding-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 #big-button{
@@ -144,12 +145,42 @@ p{
 
 .white-rectangle{
   background-color: white;
-  height: 200px;
+  height: 180px;
   border-radius: 3px;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.10);
+  padding: 20px 70px;
 }
 
+.small-img{
+  height: 55px;
+  display: block;
+  margin-bottom: 15px;
+}
 
+.rubik-text{
+  width: 70%;
+  margin-left: 50px;
+}
 
+.same-line{
+  display: inline-block;
+}
 
+.line{
+  width: 295px;
+  margin-left: 30px;
+}
+
+.check-nav{
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.check-nav i{
+  padding-right: 10px;
+}
+
+.fa-check-circle{
+  color: #ff7b54;
+}
 /* /Main */
