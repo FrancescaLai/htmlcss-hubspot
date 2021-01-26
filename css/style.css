@@ -23,43 +23,49 @@ body{
 
 .top-header{
   background-color: #F4F9FD;
-  height: 60px;
 }
 
 .container{
   width: 80%;
   margin: auto;
-  padding-top: 20px;
 }
 
 nav li{
   display: inline-block;
   list-style: none;
-  margin-right: 20px;
+  margin-right: 15px;
+  vertical-align: middle;
+  line-height: 3;
 }
 
 nav i, a{
   text-decoration: none;
-  font-size: 15px;
+  font-size: 10px;
   color: black;
 }
 
 
-.col-left{
+.column{
   float: left;
 }
 
-.col-right{
+.column.logo{
+  height: 20px;
+  margin-top: 12px
+}
+
+.column-right{
   float: right;
 }
 
 .fa-search{
   color: #91D4E1;
+  font-size: 12px;
 }
 
 .button{
   border: 1px solid #ff7b54;
-  padding: 8px 16px;
+  padding: 5px 10px;
   border-radius: 3px;
   font-size: 8px;
 }
@@ -75,7 +81,7 @@ nav i, a{
 }
 
 .bottom-header{
-  height: 60px;
+  height: 15px;
 }
 
 .hero{
@@ -86,20 +92,21 @@ nav i, a{
   background-position-x: right;
 }
 
-
 .text-header{
   width: 30%;
   word-spacing: 5px;
+
 }
 
 h1{
   margin-top: 30px;
+  padding-top: 25px;
   font-weight: bolder;
   font-size: 26px;
 }
 
 p{
-  font-size: 10px;
+  font-size: 11px;
   padding-top: 10px;
   margin-bottom: 15px;
 }
@@ -116,16 +123,15 @@ p{
 }
 
 #green-bar{
-  height: 40px;
+  height: 35px;
   background-color: #AFEBE4;
   border: 1px solid black;
 }
 /* /Header */
 
-/* Main */
+/* Main pt1*/
 .main-section{
   background-color: #F4F9FD;
-  height: 500px;
 }
 
 .rubik{
@@ -133,6 +139,7 @@ p{
   margin: auto;
   text-align: center;
   line-height: 15px;
+  padding-top: 15px;
 }
 
 #rubik-img{
@@ -152,7 +159,7 @@ p{
 }
 
 .small-img{
-  height: 55px;
+  height: 60px;
   display: block;
   margin-bottom: 15px;
 }
@@ -183,4 +190,51 @@ p{
 .fa-check-circle{
   color: #ff7b54;
 }
-/* /Main */
+/* /Main pt1*/
+
+/* Main pt2*/
+.column.triptych{
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.10);
+  text-align: center;
+  background-color: white;
+  margin: 45px 45px 45px 0px;
+  width: calc((100% / 3) - 30px);
+  padding: 10px 50px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.10);
+}
+
+
+.column.triptych:last-of-type{
+  margin-right: 0px;
+}
+
+.col-img{
+  margin: auto;
+  margin-bottom: 20px;
+}
+.column-text{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.caps-text{
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.nav-column li{
+  text-align: left;
+  font-size: 10px;
+  display: block;
+  line-height: normal;
+}
+
+.nav-column ul{
+  margin-bottom: 25px;
+}
+
+.button.full{
+  margin-bottom: 10px;
+}
+/* /Main pt2*/
