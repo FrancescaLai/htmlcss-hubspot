@@ -6,7 +6,6 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  color: #33475b;
 }
 
 /* mix */
@@ -71,7 +70,6 @@ nav i, a{
 }
 
 .button,.empty{
-  color: #ff7b54;
   background-color: white;
 }
 
@@ -112,7 +110,7 @@ p{
   margin-bottom: 15px;
 }
 
-#big-button{
+.big-button{
   font-size: 8px;
   padding: 12px 22px;
 }
@@ -274,10 +272,6 @@ h5{
   font-size: 20px;
 }
 
-.gradient-text{
-  padding: 15px 0px;
-}
-
 .bottom-row{
   padding: 10px;
   border-bottom: 0px;
@@ -288,6 +282,7 @@ h5{
 }
 /* /Gradient Section*/
 
+/* Customers & Logo Section*/
 .col-left{
   width: 20%;
   text-align: center;
@@ -324,3 +319,47 @@ h5{
 #woman-img{
   width: 40%;
 }
+
+/* /Customers & Logo Section*/
+
+/* Footer*/
+
+.footer-section{
+  background-color: #32495B;
+}
+
+.footer-col{
+  width: 25%;
+  float: left;
+  margin-top: 30px;
+  padding-left: 25px;
+}
+
+.footer-text{
+  color: white;
+  margin-bottom: 25px;
+}
+
+.footer-list{
+  margin-bottom: 20px;
+}
+
+.footer-list li{
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.footer-list a{
+  color: white;
+}
+
+.footer-button{
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #32495B;
+  background-color: white;
+  margin-top: 10px;
+}
+/* /Footer*/
