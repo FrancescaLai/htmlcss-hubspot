@@ -40,7 +40,7 @@ nav li{
 
 nav i, a{
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   color: black;
 }
 
@@ -67,7 +67,7 @@ nav i, a{
   border: 1px solid #ff7b54;
   padding: 5px 10px;
   border-radius: 3px;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .button,.empty{
@@ -85,6 +85,7 @@ nav i, a{
 }
 
 .hero{
+  height: 500px;
   background-color: #FFF4EE;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
@@ -99,14 +100,14 @@ nav i, a{
 }
 
 h1{
-  margin-top: 30px;
-  padding-top: 25px;
+  margin-top: 34px;
+  padding-top: 45px;
   font-weight: bolder;
   font-size: 26px;
 }
 
 p{
-  font-size: 11px;
+  font-size: 15px;
   padding-top: 10px;
   margin-bottom: 15px;
 }
@@ -118,18 +119,19 @@ p{
 
 .small-text{
   margin-top: 20px;
-  font-size: 7px;
+  font-size: 10px;
   word-spacing: 1px;
 }
 
 #green-bar{
-  height: 35px;
+  height: 60px;
+  margin-top: 149px;
   background-color: #AFEBE4;
   border: 1px solid black;
 }
 /* /Header */
 
-/* Main pt1*/
+/* Rubik Section*/
 .main-section{
   background-color: #F4F9FD;
 }
@@ -139,7 +141,7 @@ p{
   margin: auto;
   text-align: center;
   line-height: 15px;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 #rubik-img{
@@ -152,7 +154,6 @@ p{
 
 .white-rectangle{
   background-color: white;
-  height: 180px;
   border-radius: 3px;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.10);
   padding: 20px 70px;
@@ -190,9 +191,7 @@ p{
 .fa-check-circle{
   color: #ff7b54;
 }
-/* /Main pt1*/
 
-/* Main pt2*/
 .column.triptych{
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.10);
   text-align: center;
@@ -225,7 +224,7 @@ p{
 
 .nav-column li{
   text-align: left;
-  font-size: 10px;
+  font-size: 12px;
   display: block;
   line-height: normal;
 }
@@ -237,4 +236,50 @@ p{
 .button.full{
   margin-bottom: 10px;
 }
-/* /Main pt2*/
+/* /Rubik Section*/
+
+/* Gradient Section*/
+
+.gradient-section{
+  background: rgb(13,154,171);
+  background: linear-gradient(90deg, rgba(13,154,171,1) 0%, rgba(0,228,164,1) 100%);
+}
+
+#gradient-h2{
+  color: white;
+  text-align: center;
+  padding: 30px 55px;
+}
+
+.gradient-text,.top{
+  color: white;
+  text-align: center;
+  padding: 10px 55px;
+}
+
+.row{
+  float: left;
+  width: 25%;
+  text-align: center;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+h5{
+  color: white;
+  font-size: 20px;
+}
+
+.gradient-text{
+  padding: 15px 0px;
+}
+
+.bottom-row{
+  padding: 10px;
+  border-bottom: 0px;
+}
+
+.row.not{
+  border-right: 0px;
+}
+/* /Gradient Section*/
