@@ -289,7 +289,7 @@ h5{
 /* /Gradient Section*/
 
 .col-left{
-  width: 30%;
+  width: 20%;
   text-align: center;
   margin-top: 30px;
   display: inline-block;
@@ -297,13 +297,12 @@ h5{
 }
 
 .col-right{
-  width: 70%;
+  width: 50%;
   float: right;
   text-align: right;
 }
 
-
-#num-text{
+.big-text{
   font-size: 30px;
 }
 
@@ -312,4 +311,16 @@ h5{
   display: inline-block;
   vertical-align: middle;
   margin: 20px 15px;
+}
+
+.col-left-bottom{
+  width: 48%;
+  float: left;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+#woman-img{
+  width: 40%;
 }
