@@ -230,19 +230,18 @@ p{
 /* Gradient Section*/
 
 .gradient-section{
-  background: rgb(13,154,171);
   background: linear-gradient(90deg, rgba(13,154,171,1) 0%, rgba(0,228,164,1) 100%);
 }
 
 .gradient-text{
   color: white;
   text-align: center;
-  padding: 30px 55px;
+  padding: 30px;
   margin-bottom: 25px;
 }
 
-.gradient-text,.top{
-  padding: 10px 55px;
+.gradient-text.top{
+  padding: 10px ;
 }
 
 .award-row{
@@ -325,6 +324,11 @@ h5{
   float: left;
   width: 25%;
   margin-top: 30px;
+}
+
+h6.gradient-text{
+  text-align: left;
+  padding: 0px;
 }
 
 .nav-column li{
