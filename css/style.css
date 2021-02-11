@@ -93,6 +93,7 @@ nav i, a{
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: right;
+  position: relative;
 }
 
 .text-header{
@@ -129,6 +130,9 @@ p{
   margin-top: 144px;
   background-color: #AFEBE4;
   border: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 /* /Header */
 
